@@ -1,0 +1,378 @@
+body {
+    margin: 0;
+    padding: 0;
+    transition: .7s;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.nav-item-link {
+    color: #000;
+    font-family: Nunito;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.nav-item-link:hover {
+    text-decoration: underline;
+}
+
+.nav-item-link[data-isactive="active"] {
+    text-decoration: underline;
+}
+
+.container {
+    width: 838px;
+    margin: auto;
+}
+
+header {
+    padding-top: 62px
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-between
+}
+
+.first-screen {
+    background-image: url(bg1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.first-screen-title {
+    margin: 0;
+    color: #456EA2;
+    font-family: Manrope;
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 15px;
+    text-transform: uppercase;
+}
+
+.first-screen-subtitle {
+    color: #000;
+    text-align: center;
+    font-family: Nunito;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 30px;
+}
+
+.learn-more-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    width: 414px;
+    height: 99px;
+    border-radius: 20px;
+    background: #456EA2;
+    color: #FFF;
+    font-family: Caveat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 30px;
+}
+
+.main-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 910px;
+}
+
+.learn-more-button:hover {
+    color: #456EA2;
+    background-color: #FFF;
+    box-sizing: border-box;
+    border: 3px solid #456EA2;
+}
+
+.second-screen {
+    width: 100%;
+    height: 778px;
+    background: url(bg2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.about-us {
+    color: #011C3E;
+    text-align: center;
+    font-family: Caveat;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 60%
+}
+
+.statistics-title {
+    padding-top: 95px;
+    color: #456EA2;
+    font-family: Caveat;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+}
+
+.statistics-item {
+    padding-top: 100px;
+    width: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.statistics-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-bottom: 100px;
+}
+
+.statistics-item-text {
+    color: #000;
+    font-family: Nunito;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    padding-top: 30px;
+}
+
+.members-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.members-title {
+    padding-top: 100px;
+    color: #000;
+    font-family: Caveat;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+}
+
+.member-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 722px;
+    margin: 50px;
+}
+
+.member-name {
+    color: #456EA2;
+    font-family: Caveat;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.member-position {
+    color: #456EA2;
+    font-family: Nunito;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 21.3px;
+    opacity: 0.5;
+    padding-bottom: 30px;
+}
+
+.member-description {
+    color: #000;
+    text-align: center;
+    font-family: Nunito;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    width: 80%;
+}
+
+footer {
+    width: 100%;
+    background-color: #456EA2;
+    margin-top: 100px;
+}
+
+.contacts-list {
+    color: #FFF;
+    padding: 100px 0;
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.contacts-item {
+    padding: 100px 0;
+}
+
+.contacts-item-title {
+    font-family: Caveat;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 50px;
+}
+
+.contacts-text {
+    padding-top: 25px;
+    font-family: Nunito;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+@media (max-width: 1350px) {
+    .about-us {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 960px) {
+    .first-screen-title {
+        font-size: 50px;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .learn-more-button {
+        width: 296px;
+        height: 110px;
+        font-size: 35px;
+    }
+
+    .container {
+        width: auto;
+    }
+}
+
+@media (max-width: 770px) {
+    .about-us {
+        font-size: 25px;
+    }
+}
+
+@media(max-width: 601px) {
+    .first-screen-title {
+        font-size: 30px;
+    }
+
+    .first-screen-subtitle {
+        font-size: 20px;
+        letter-spacing: 20px;
+    }
+
+    .learn-more-button {
+        font-size: 25px;
+        width: 206px;
+        height: 80px;
+    }
+
+    .statistics-title {
+        font-size: 60px;
+    }
+
+    .statistics-item img  {
+        width: 200px;
+    }
+
+    .statistics-item  {
+        width: 300px;
+    }
+
+    .members-title {
+        font-size: 60px;
+    }
+
+    .contacts-item-title {
+        font-size: 40px;
+    }
+
+    .member-item img {
+        width: 230px;
+    }
+
+    .member-name {
+        font-size: 30px;
+    }
+
+    .member-position {
+        font-size: 25px;
+        letter-spacing: 11.3px;
+    }
+
+    .member-description {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 473px) {
+    .contacts-text {
+        font-size: 20px;
+    }
+
+    .first-screen-title {
+        font-size: 15px;
+    }
+
+    .first-screen-subtitle {
+        letter-spacing: 20px;
+        font-size: 15px;
+    }
+
+    .about-us {
+        font-size: 20px;
+    }
+}
